@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Data & models
+office_loop/
+office_loop.zip
+*.ckpt
+*.safetensors
+
+# Logs (tracked selectively)
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Third-party build artifacts
+third_party/salad/__pycache__/
+third_party/salad/*.egg-info/
+third_party/
+
+# KITTI eval per-frame artifacts (huge; keep only summaries/plots/TUM)
+docs/eval/kitti/**/depth_frame_*.npy
+docs/eval/kitti/**/depth_frame_*.png
