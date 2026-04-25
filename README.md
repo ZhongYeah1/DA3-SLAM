@@ -4,6 +4,8 @@ Dense feed-forward SLAM using [Depth-Anything-3](https://github.com/ByteDance-Se
 
 Based on [VGGT-SLAM](https://github.com/MIT-SPARK/VGGT_SPARK) -- replaces the VGGT backbone with DA3 via an adapter pattern (DA3 source code is never modified).
 
+Our presentation video: https://www.youtube.com/watch?v=1Zi687jzQ4Y
+
 See also:
 - [`Pipeline.md`](Pipeline.md) -- full two-phase pipeline walkthrough (Phase A stages 1-9, Phase B pose-conditioned refinement).
 - [`docs/Results.md`](docs/Results.md) -- KITTI / TUM evaluation, ablation tables, and headline numbers.
